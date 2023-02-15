@@ -1,0 +1,2 @@
+#Iniciar REACT con TypeScript
+npx create-react-app reforzamiento --template typescript
