@@ -3,6 +3,9 @@ npx create-react-app reforzamiento --template typescript
 
 #Verificar celular conectado con adb devices
 
+# crear proyecto de react native en android
+npx react-native init AwesomeTSProject --template react-native-template-typescript
+
 #Correr app en dispositivo
 npx react-native run-android
 
