@@ -1,23 +1,11 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { ContadorScreen } from './src/screens/ContadorScreen';
+import { HolaMundoScreens } from './src/screens/HolaMundoScreens';
 
-const App = () => {
+export const App = () => {
   return (
-    <View style={
-      {
-        flex:1,
-        // backgroundColor: 'red',
-        justifyContent: 'center'
-      }
-    }>
-      <Text style={
-        {
-          fontSize: 45,
-          textAlign: 'center'
-        }
-      }>Hola Mundo</Text>
-    </View>
+    // <HolaMundoScreens/>
+    <ContadorScreen/>
   )
 }
 
-export default App;
