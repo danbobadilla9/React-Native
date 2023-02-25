@@ -1,2 +1,22 @@
 #Iniciar REACT con TypeScript
 npx create-react-app reforzamiento --template typescript
+
+#Verificar celular conectado con adb devices
+
+#Correr app en dispositivo
+npx react-native run-android
+
+#Puede generarse errores de appdebugfail podemos utilizar el siguiente comando
+
+    #Si hay un error de autorizacion
+        #Transferencia de archivos activada
+        #Ir a opciones de desarrollador y activar instalacion por USB 
+        #Con eso deberia de solucionarse errores
+
+    #Si hay errores de java sdk o jdk
+        #Configurar las variables globales tanto del sistema como del usuario utilizando el appdata del usuario 
+        #Las variables tanto ANDORID_HOME y JAVA_HOME
+
+    npx react-native run-android --deviceId 1088c22d0409
+
+#Sí la libreria node_modules no aparece, es porque los snipets de vsc estan deprecados, tenemos que actualizarlos
