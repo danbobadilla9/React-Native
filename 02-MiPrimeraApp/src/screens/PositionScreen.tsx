@@ -6,6 +6,7 @@ export const PositionScreen = () => {
         <View style={styles.container}>
             <View style={styles.cajaMorada}/>
             <View style={styles.cajaNaranja}/>
+            <View style={styles.cajaVerde}/>
         </View>
     )
 }
@@ -24,8 +25,12 @@ const styles = StyleSheet.create({
         borderWidth: 10,
         borderColor: 'white',
         // position: 'relative' por defecto todos lo tienen
-        top: 100,
-        left: 50
+        // top: 100,
+        // left: 50
+        //INIT POSITION ABSOLUTE
+        position: 'absolute',//Relativo al padre
+        top: 0,
+        right: 0
     },
     cajaNaranja: {
         width: 100,
@@ -33,6 +38,22 @@ const styles = StyleSheet.create({
         backgroundColor: '#F0A23B',
         borderWidth: 10,
         borderColor: 'white',
-        top: -50
+        // top: -50
+        //INIT POSITION ABSOLUTE
+        position: 'absolute',
+        bottom: 0,
+        right: 0
+    },
+    cajaVerde: {
+        width: 100,
+        height: 100,
+        backgroundColor: 'green',
+        borderWidth: 10,
+        borderColor: 'white',
+        // top: -50
+        //INIT POSITION ABSOLUTE
+        position: 'absolute',
+        top: 0,
+        left: 0
     }
 })
