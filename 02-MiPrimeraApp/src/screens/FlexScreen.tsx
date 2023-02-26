@@ -16,24 +16,32 @@ const styles = StyleSheet.create({
         flex:1,
         backgroundColor: '#28C4D9',
         // flexDirection: 'row-reverse'
-        flexDirection: 'row'
+        // flexDirection: 'row'
         // flexDirection: 'column-reverse'
+
+        //JUSTIFYCONTENT depende de el flexDirection
+        flexDirection: 'row',
+
+        justifyContent: 'space-between' 
+        // justifyContent: 'space-between' 
+        // justifyContent: 'space-around' distribucion equitativamente 
+        // justifyContent: 'center' //se centro relativo al padre
+        // justifyContent: 'flex-end'
     },
     caja1: {
-        flex:1,
-        width:100,
+        // width:100,
         borderWidth: 2,
         borderColor: 'white',
         fontSize: 30,
     },
     caja2: {
-        width:100,
+        // width:100,
         borderWidth: 2,
         borderColor: 'white',
         fontSize: 30,
     },
     caja3: {
-        width:100,
+        // width:100,
         borderWidth: 2,
         borderColor: 'white',
         fontSize: 30,
